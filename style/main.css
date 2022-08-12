@@ -1,0 +1,73 @@
+body{
+    background-color: #adadad;
+}
+
+main{
+    background-color: white;
+    width: 400px;
+    max-height: 850px;
+    position: relative;
+    top: 50px;
+    left: 430px;
+    word-wrap: break-word;
+}
+
+h2{
+    color: blueviolet;
+}
+
+header{
+    height: 70px;
+    background-color: blueviolet;
+}
+
+
+
+header, #first-line{
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 20px;
+    
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.choose1, .choose2{
+  background-color: blueviolet;
+  color: white;
+}
+
+
+
+.the-list {
+  list-style: none;
+  padding: 0;
+}
+
+
+
+.student-name {
+  margin: 0;
+}
+
+
+.heading-list {
+  color: var(--accent-color);
+}
+
+
+a{
+    text-decoration: none;
+}
+
+li{
+    border: 1px solid blueviolet;
+    margin-top: 5px;
+}
+
+.list1, .list2, .list3, .list3, .list4, .list5, .list6{
+    border-bottom: 5px solid blueviolet;
+    border-right: 5px solid blueviolet;
+}
